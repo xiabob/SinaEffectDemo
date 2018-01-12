@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741AEF792008668300B97370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AEF782008668300B97370 /* AppDelegate.m */; };
+		741AEF7C2008668300B97370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AEF7B2008668300B97370 /* ViewController.m */; };
+		741AEF7F2008668300B97370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741AEF7D2008668300B97370 /* Main.storyboard */; };
+		741AEF812008668300B97370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741AEF802008668300B97370 /* Assets.xcassets */; };
+		741AEF842008668300B97370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741AEF822008668300B97370 /* LaunchScreen.storyboard */; };
+		741AEF872008668300B97370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AEF862008668300B97370 /* main.m */; };
+		741AEF912008668300B97370 /* SinaEffectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AEF902008668300B97370 /* SinaEffectDemoTests.m */; };
+		741AEF9C2008668300B97370 /* SinaEffectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AEF9B2008668300B97370 /* SinaEffectDemoUITests.m */; };
+		741AEFAC200866D500B97370 /* XBSlideZoomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AEFAB200866D500B97370 /* XBSlideZoomFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		741AEF8D2008668300B97370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741AEF6C2008668300B97370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741AEF732008668300B97370;
+			remoteInfo = SinaEffectDemo;
+		};
+		741AEF982008668300B97370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741AEF6C2008668300B97370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741AEF732008668300B97370;
+			remoteInfo = SinaEffectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		741AEF742008668300B97370 /* SinaEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741AEF772008668300B97370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		741AEF782008668300B97370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		741AEF7A2008668300B97370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		741AEF7B2008668300B97370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		741AEF7E2008668300B97370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741AEF802008668300B97370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741AEF832008668300B97370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741AEF852008668300B97370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741AEF862008668300B97370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		741AEF8C2008668300B97370 /* SinaEffectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaEffectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741AEF902008668300B97370 /* SinaEffectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaEffectDemoTests.m; sourceTree = "<group>"; };
+		741AEF922008668300B97370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741AEF972008668300B97370 /* SinaEffectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaEffectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741AEF9B2008668300B97370 /* SinaEffectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaEffectDemoUITests.m; sourceTree = "<group>"; };
+		741AEF9D2008668300B97370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741AEFAA200866D500B97370 /* XBSlideZoomFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBSlideZoomFlowLayout.h; sourceTree = "<group>"; };
+		741AEFAB200866D500B97370 /* XBSlideZoomFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBSlideZoomFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741AEF712008668300B97370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741AEF892008668300B97370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741AEF942008668300B97370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741AEF6B2008668300B97370 = {
+			isa = PBXGroup;
+			children = (
+				741AEF762008668300B97370 /* SinaEffectDemo */,
+				741AEF8F2008668300B97370 /* SinaEffectDemoTests */,
+				741AEF9A2008668300B97370 /* SinaEffectDemoUITests */,
+				741AEF752008668300B97370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		741AEF752008668300B97370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741AEF742008668300B97370 /* SinaEffectDemo.app */,
+				741AEF8C2008668300B97370 /* SinaEffectDemoTests.xctest */,
+				741AEF972008668300B97370 /* SinaEffectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741AEF762008668300B97370 /* SinaEffectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				741AEFA92008669C00B97370 /* Classes */,
+				741AEF772008668300B97370 /* AppDelegate.h */,
+				741AEF782008668300B97370 /* AppDelegate.m */,
+				741AEF7A2008668300B97370 /* ViewController.h */,
+				741AEF7B2008668300B97370 /* ViewController.m */,
+				741AEF7D2008668300B97370 /* Main.storyboard */,
+				741AEF802008668300B97370 /* Assets.xcassets */,
+				741AEF822008668300B97370 /* LaunchScreen.storyboard */,
+				741AEF852008668300B97370 /* Info.plist */,
+				741AEF862008668300B97370 /* main.m */,
+			);
+			path = SinaEffectDemo;
+			sourceTree = "<group>";
+		};
+		741AEF8F2008668300B97370 /* SinaEffectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				741AEF902008668300B97370 /* SinaEffectDemoTests.m */,
+				741AEF922008668300B97370 /* Info.plist */,
+			);
+			path = SinaEffectDemoTests;
+			sourceTree = "<group>";
+		};
+		741AEF9A2008668300B97370 /* SinaEffectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				741AEF9B2008668300B97370 /* SinaEffectDemoUITests.m */,
+				741AEF9D2008668300B97370 /* Info.plist */,
+			);
+			path = SinaEffectDemoUITests;
+			sourceTree = "<group>";
+		};
+		741AEFA92008669C00B97370 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				741AEFAA200866D500B97370 /* XBSlideZoomFlowLayout.h */,
+				741AEFAB200866D500B97370 /* XBSlideZoomFlowLayout.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741AEF732008668300B97370 /* SinaEffectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741AEFA02008668300B97370 /* Build configuration list for PBXNativeTarget "SinaEffectDemo" */;
+			buildPhases = (
+				741AEF702008668300B97370 /* Sources */,
+				741AEF712008668300B97370 /* Frameworks */,
+				741AEF722008668300B97370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaEffectDemo;
+			productName = SinaEffectDemo;
+			productReference = 741AEF742008668300B97370 /* SinaEffectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		741AEF8B2008668300B97370 /* SinaEffectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741AEFA32008668300B97370 /* Build configuration list for PBXNativeTarget "SinaEffectDemoTests" */;
+			buildPhases = (
+				741AEF882008668300B97370 /* Sources */,
+				741AEF892008668300B97370 /* Frameworks */,
+				741AEF8A2008668300B97370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741AEF8E2008668300B97370 /* PBXTargetDependency */,
+			);
+			name = SinaEffectDemoTests;
+			productName = SinaEffectDemoTests;
+			productReference = 741AEF8C2008668300B97370 /* SinaEffectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		741AEF962008668300B97370 /* SinaEffectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741AEFA62008668300B97370 /* Build configuration list for PBXNativeTarget "SinaEffectDemoUITests" */;
+			buildPhases = (
+				741AEF932008668300B97370 /* Sources */,
+				741AEF942008668300B97370 /* Frameworks */,
+				741AEF952008668300B97370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741AEF992008668300B97370 /* PBXTargetDependency */,
+			);
+			name = SinaEffectDemoUITests;
+			productName = SinaEffectDemoUITests;
+			productReference = 741AEF972008668300B97370 /* SinaEffectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741AEF6C2008668300B97370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xiabob;
+				TargetAttributes = {
+					741AEF732008668300B97370 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					741AEF8B2008668300B97370 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 741AEF732008668300B97370;
+					};
+					741AEF962008668300B97370 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 741AEF732008668300B97370;
+					};
+				};
+			};
+			buildConfigurationList = 741AEF6F2008668300B97370 /* Build configuration list for PBXProject "SinaEffectDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741AEF6B2008668300B97370;
+			productRefGroup = 741AEF752008668300B97370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741AEF732008668300B97370 /* SinaEffectDemo */,
+				741AEF8B2008668300B97370 /* SinaEffectDemoTests */,
+				741AEF962008668300B97370 /* SinaEffectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741AEF722008668300B97370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741AEF842008668300B97370 /* LaunchScreen.storyboard in Resources */,
+				741AEF812008668300B97370 /* Assets.xcassets in Resources */,
+				741AEF7F2008668300B97370 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741AEF8A2008668300B97370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741AEF952008668300B97370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741AEF702008668300B97370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741AEFAC200866D500B97370 /* XBSlideZoomFlowLayout.m in Sources */,
+				741AEF7C2008668300B97370 /* ViewController.m in Sources */,
+				741AEF872008668300B97370 /* main.m in Sources */,
+				741AEF792008668300B97370 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741AEF882008668300B97370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741AEF912008668300B97370 /* SinaEffectDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741AEF932008668300B97370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741AEF9C2008668300B97370 /* SinaEffectDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741AEF8E2008668300B97370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741AEF732008668300B97370 /* SinaEffectDemo */;
+			targetProxy = 741AEF8D2008668300B97370 /* PBXContainerItemProxy */;
+		};
+		741AEF992008668300B97370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741AEF732008668300B97370 /* SinaEffectDemo */;
+			targetProxy = 741AEF982008668300B97370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		741AEF7D2008668300B97370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741AEF7E2008668300B97370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		741AEF822008668300B97370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741AEF832008668300B97370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741AEF9E2008668300B97370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		741AEF9F2008668300B97370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		741AEFA12008668300B97370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPR8JVVW9L;
+				INFOPLIST_FILE = SinaEffectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiabob.SinaEffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		741AEFA22008668300B97370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPR8JVVW9L;
+				INFOPLIST_FILE = SinaEffectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiabob.SinaEffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		741AEFA42008668300B97370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPR8JVVW9L;
+				INFOPLIST_FILE = SinaEffectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiabob.SinaEffectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaEffectDemo.app/SinaEffectDemo";
+			};
+			name = Debug;
+		};
+		741AEFA52008668300B97370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPR8JVVW9L;
+				INFOPLIST_FILE = SinaEffectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiabob.SinaEffectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaEffectDemo.app/SinaEffectDemo";
+			};
+			name = Release;
+		};
+		741AEFA72008668300B97370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPR8JVVW9L;
+				INFOPLIST_FILE = SinaEffectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiabob.SinaEffectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinaEffectDemo;
+			};
+			name = Debug;
+		};
+		741AEFA82008668300B97370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPR8JVVW9L;
+				INFOPLIST_FILE = SinaEffectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiabob.SinaEffectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinaEffectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741AEF6F2008668300B97370 /* Build configuration list for PBXProject "SinaEffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741AEF9E2008668300B97370 /* Debug */,
+				741AEF9F2008668300B97370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741AEFA02008668300B97370 /* Build configuration list for PBXNativeTarget "SinaEffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741AEFA12008668300B97370 /* Debug */,
+				741AEFA22008668300B97370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741AEFA32008668300B97370 /* Build configuration list for PBXNativeTarget "SinaEffectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741AEFA42008668300B97370 /* Debug */,
+				741AEFA52008668300B97370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741AEFA62008668300B97370 /* Build configuration list for PBXNativeTarget "SinaEffectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741AEFA72008668300B97370 /* Debug */,
+				741AEFA82008668300B97370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741AEF6C2008668300B97370 /* Project object */;
+}
